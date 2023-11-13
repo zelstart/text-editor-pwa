@@ -10,7 +10,6 @@
     "build": "cd client && npm run build",
     "install": "cd client && npm i",
     "client": "cd client && npm start",
-    "heroku-postbuild": "cd client && npm install --production"
   },
   "keywords": [],
   "author": "Zel Start",

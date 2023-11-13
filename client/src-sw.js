@@ -28,7 +28,7 @@ registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
 // asset caching
 registerRoute(
-  ({ request }) => ['document', 'manifest', 'script'].includes(request.destination),
+  ({ request }) => ['document', 'manifest', 'script', 'image'].includes(request.destination),
   new CacheFirst({
     cacheName: 'important-files-cache',
     plugins: [

@@ -9,7 +9,7 @@
     "server": "cd server nodemon server.js --ignore client",
     "build": "cd client && npm run build",
     "install": "cd client && npm i",
-    "client": "cd client && npm start",
+    "client": "cd client && npm start"
   },
   "keywords": [],
   "author": "Zel Start",

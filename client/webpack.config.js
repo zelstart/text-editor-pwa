@@ -15,6 +15,7 @@ module.exports = () => {
       filename: '[name].bundle.js',
       path: path.resolve(__dirname, 'dist'),
     },
+    devtool: 'source-map',
     plugins: [
       // generates html file and injects bundles
       new HtmlWebpackPlugin({
